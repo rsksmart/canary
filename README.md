@@ -1,12 +1,17 @@
 
-# Fork detector notifier
+# Canary
 
-The present script periodically checks forks detected by armadillo monitor in order to notify of any suspicious activity.
+Canary is the notification system that checks the status of RSK chains (mainchain and, if exist, forks) and determines if there is a possibility of an attack.
 
-Since one-block reorganizations are common in the RSK network, the length to trigger the notifications is set to 3 blocks minimum. Anything below that is ignored.
+## Documentation
+
+[Understanding Canary](https://docs.google.com/document/d/1kM2oslwv2laRJxhSgvxMjhNLx-B1MWkRcrkr_IDuyyo/edit#heading=h.q8j071rmqyb1)
 
 ## Set up
-**``npm install``**
+``npm install``
 
 ## Run
-``npm run-script start``
+``npm start``
+
+## Run tests
+``npm test``

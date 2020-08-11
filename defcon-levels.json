@@ -1,0 +1,29 @@
+[
+    {
+        "name": "default",
+        "level": 0,
+        "forkLengthThreshold": 0,
+        "hashrateThreshold": 0,
+        "distanceToBestBlockThreshold": 1000000000000,
+        "btcBlocksThreshold": 1,
+        "recipients": ["mining@iovlabs.org"]
+    },
+    {
+        "name": "urgent",
+        "level": 1,
+        "forkLengthThreshold": 1,
+        "hashrateThreshold": 50,
+        "distanceToBestBlockThreshold": 6000,
+        "btcBlocksThreshold": 2,
+        "recipients": ["mining@iovlabs.org","security1@iovlabs.org"]
+    },
+    {
+        "name": "action-required",
+        "level": 2,
+        "forkLengthThreshold": 515,
+        "hashrateThreshold": 50,
+        "distanceToBestBlockThreshold": 6000,
+        "btcBlocksThreshold": 3,
+        "recipients":["mining@iovlabs.org", "security1@iovlabs.org"]
+    }
+]

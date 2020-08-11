@@ -1,0 +1,31 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fork-detector-notifier.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "test": "cross-env TS_NODE_FILES=true  mocha -exit --timeout 5000 -r ts-node/register -colors test/**/*.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "mocha": "^6.2.0",
+    "ts-sinon": "^1.0.17",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "nod3": "git+https://github.com/rsksmart/nod3.git"
+  },
+  "dependencies": {
+    "async-await-retry": "^1.0.4",
+    "curl-request": "^1.1.1",
+    "log4js": "^6.1.0",
+    "nodemailer": "^6.4.2",
+    "underscore": "^1.9.2",
+    "mongodb": "^3.1.13"
+  }
+}

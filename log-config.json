@@ -1,0 +1,18 @@
+{
+    "appenders": {
+        "file": {
+            "type": "dateFile",
+            "filename": "logs/fork-detector-notifier.log",
+            "daysToKeep": 10
+        },
+        "console": {
+            "type": "console"
+        }
+    },
+    "categories": {
+        "default": {
+            "appenders": ["file", "console"],
+            "level": "all" 
+        }
+    }
+}

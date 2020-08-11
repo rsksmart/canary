@@ -1,0 +1,24 @@
+{
+    "server": "",
+    "user":  "",
+    "pass": "",
+    "sender": "",
+    "armadilloUrl": "",
+    "chainDepth": 1,
+    "pollIntervalMs": 5000,
+    "minForkLength": 1,
+    "rskNodeUrl": "",
+    "nBlocksForBtcHashrateForRskMainchain": 144,
+    "store": {
+        "auth": {
+            "user": "mongo user here",
+            "password": "mongo password here"
+        },
+        "port": "27017",
+        "host": "localhost",
+        "databaseName": "canary",
+        "collections": {
+            "forkNotification": "forkNotification"
+        }
+    }
+}
